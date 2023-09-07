@@ -54,6 +54,7 @@ class URL
         bool ForceQuery;       // append a query ('?') even if RawQuery is empty
         string RawQuery;       // encoded query values, without '?'
         string Fragment;       // fragment for references, without '#'
+
 };
 
 class UserInfo
@@ -62,6 +63,7 @@ class UserInfo
         string username;    
         string password;    
         bool passwordSet; 
+
 };
 
 class Values
