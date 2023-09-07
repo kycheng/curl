@@ -62,6 +62,7 @@ class UserInfo
         string username;    
         string password;    
         bool passwordSet; 
+
 };
 
 class Values
